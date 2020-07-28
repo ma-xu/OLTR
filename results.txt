@@ -1,0 +1,6 @@
+
+Evaluation      Acc     F1-measure  Many-shot Acc   Median-shot Acc Low-shot Acc    Open-set Acc
+OLTR close set  0.378   0.359       0.460           0.369           0.184
+OLTR All set    0.361   0.446       0.442           0.352           0.175           0.282
+Baseline        0.237   0.189       0.461           0.122           0.005
+
