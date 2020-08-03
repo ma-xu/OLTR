@@ -47,7 +47,7 @@ class MetaEmbedding_Classifier(nn.Module):
         infused_feature = concept_selector * memory_feature
         
         logits = self.cosnorm_classifier(x)
-        print("_______Output logits {} are:___________".format(logits))
+        print("_______Output logits {} are:___________".format(logits.shape))
         print(logits)
 
         return logits, [direct_feature, infused_feature]
