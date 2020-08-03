@@ -52,6 +52,7 @@ if not test_mode:
                                     num_workers=training_opt['num_workers'])
             for x in (['train', 'val', 'train_plain'] if relatin_opt['init_centroids'] else ['train', 'val'])}
 
+    print(data)
     training_model = model(config, data, test=False)
     print(training_model)
 
