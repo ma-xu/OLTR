@@ -166,6 +166,10 @@ class model ():
 
     def train(self):
 
+        print("Model is:______________")
+        for model in self.networks.values():
+            print(model)
+        print("Print model done.")
         # When training the network
         print_str = ['Phase: train']
         print_write(print_str, self.log_file)
