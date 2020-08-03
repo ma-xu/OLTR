@@ -53,6 +53,7 @@ if not test_mode:
             for x in (['train', 'val', 'train_plain'] if relatin_opt['init_centroids'] else ['train', 'val'])}
 
     training_model = model(config, data, test=False)
+    print(training_model)
 
     training_model.train()
 
